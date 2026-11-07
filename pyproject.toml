@@ -1,0 +1,14 @@
+[project]
+name = "trabalho-fase-7"
+version = "0.1.0"
+description = "SIFSM - Sistema Integrado de Futuro Sustentável em Marte (Aurora Siger) - Fase 7"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+    "oracledb>=26.1.0",
+    "pandas>=3.1.1",
+    "scikit-learn>=1.9.1",
+    "scipy>=1.18.1",
+]
