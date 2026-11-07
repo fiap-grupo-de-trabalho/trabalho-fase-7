@@ -8,6 +8,8 @@ O SIFSM é um protótipo em Python, com menu no terminal, que guarda as leituras
 
 | Nome | GitHub |
 |---|---|
+| Carlos Eugênio | [carloseugenioandrade](https://github.com/carloseugenioandrade) |
+| Emanu06 | [Emanu06](https://github.com/Emanu06) |
 | Leonardo Tims | [timsleo](https://github.com/timsleo) |
 | Matheus Fuchelberguer Neves | [Fuchens28](https://github.com/Fuchens28) |
 | Rodrigo Gomes Dias | [rodrigogmdias](https://github.com/rodrigogmdias) |
