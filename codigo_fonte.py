@@ -42,7 +42,22 @@ def conectar():
         return None
     else:
         print("Conexão realizada com sucesso!")
+        criar_tabela(conn)
         return conn
+
+
+def criar_tabela(conn):
+    try:
+        with open("script_banco.sql", encoding="utf-8") as arquivo:
+            sql = arquivo.read().strip().rstrip(";")
+        cursor = conn.cursor()
+        cursor.execute(sql)
+    except FileNotFoundError:
+        print("Arquivo script_banco.sql não encontrado.")
+    except Exception:
+        print("Tabela sifsm_leituras já existe no banco.")
+    else:
+        print("Tabela sifsm_leituras criada no banco.")
 
 
 def ler_dados(conn):
@@ -60,7 +75,7 @@ def inserir(conn, r):
         {r['geracao_solar_kwh']}, {r['carga_bateria_pct']}, {r['critico']}, '{r['status']}')""")
 
 
-def carregar_csv(conn: oracledb.Connection):
+def carregar_csv(conn):
     confirma = input(margem + "Isso apaga a tabela e carrega o CSV. Confirma? [S/N] ")
     if confirma.upper() != "S":
         print("Operação cancelada.")
