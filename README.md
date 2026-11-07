@@ -4,6 +4,14 @@ Projeto da Fase 7 (A Aurora Constrói os Alicerces de um Futuro Sustentável em 
 
 O SIFSM é um protótipo em Python, com menu no terminal, que guarda as leituras dos módulos da colônia Aurora Siger em um banco Oracle, faz o CRUD dessas leituras, aplica uma regra booleana de alerta, organiza chamados e buscas com estruturas de dados, simula o estado de carga da bateria da colônia, estima o consumo com regressão linear e responde perguntas por meio de agentes simulados com guardrail.
 
+## Integrantes
+
+| Nome | GitHub |
+|---|---|
+| Leonardo Tims | [timsleo](https://github.com/timsleo) |
+| Matheus Fuchelberguer Neves | [Fuchens28](https://github.com/Fuchens28) |
+| Rodrigo Gomes Dias | [rodrigogmdias](https://github.com/rodrigogmdias) |
+
 ## Arquivos
 
 | Arquivo | Descrição |
